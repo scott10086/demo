@@ -1,0 +1,15 @@
+{
+    "data":
+    {
+        "logo": [
+        {
+            "imageUrl": "VW",
+            "routeUrl": "2012"
+        }],
+        "menus": [
+        {
+            "label": "",
+            "routeUrl": ""
+        }]
+    }
+}
