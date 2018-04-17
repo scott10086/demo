@@ -1,26 +1,24 @@
 'use strict';
 // var app = angular.module('myApp.directives', []);
 
-app.directive('myDirective', function() {  
-    return {  
-    restrict:String,                  
-    priority:Number,  
-    terminal:Boolean,  
-    template:String or Template Function,  
-    templateUrl:String or Template Function,  
-    replace:Boolean or String,  
-    transclude:Boolean,  
-    scope:Boolean or Object,  
-    controller:String or function(scope, element, attrs, transclude, otherInjectables) { ... },  
-    controllerAs:String,  
-    require:String,  
-    link: function(scope, iElement, iAttrs) { ... },  
-    compile:function(tElement, tAttrs, transclude) {  
-        return {  
-            pre: function(scope, iElement, iAttrs, controller) { ... },  
-            post: function(scope, iElement, iAttrs, controller) { ... }  
-           }  
-        return function postLink(...) { ... }  
-        }  
-    };  
- });  
+app.directive('header001Dire', function() {
+    return {
+        restrict:"EACM",
+        replace: true,
+        templateUrl: 'partials/header/header001/template.html',
+        scope:{},
+        controller: function($scope, $element, $attrs, $transclude) { 
+            // 控制器逻辑放在这里 
+            $scope.hello = "666666";
+        } 
+
+    };
+});
+
+// （1）$scope，与指令元素相关联的作用域
+
+// （2）$element，当前指令对应的 元素
+
+// （3）$attrs，由当前元素的属性组成的对象
+
+// （4）$transclude，嵌入链接函数，实际被执行用来克隆元素和操作DOM的函数
