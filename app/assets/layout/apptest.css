@@ -1,0 +1,48 @@
+/* app css stylesheet */
+
+.header{
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  border: 2px solid white;
+  margin:0;
+  padding: 5px;
+}
+.logo{
+  background-color: white;
+  height: 60px;
+}
+.topMenus{
+  background-color: white;
+  height: 25px;
+}
+.banner{
+  background-color: white;
+  height: 251px;
+}
+.contain{
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  border: 2px solid white;
+  margin:0;
+  padding: 5px;
+}
+.leftMenus{
+  background-color: white;
+  width: 30%;
+  height: 586px;
+  float: left;
+}
+.content{
+  background-color: white;
+  width: 70%;
+  float: left;
+  height: 586px;
+}
+.footer{
+  background-color: white;
+  border: 2px solid white;
+  height: 300px;
+  width: 100%;
+}
