@@ -12,42 +12,53 @@
 <body>
     <div class="page">
         <div class="header">
-            <div class="logo">
-                
-            </div>
-            <div class="topMenus">
-                
-            </div>
-            <div class="banner">
-                
-            </div>
-        </div>
+            <ul class="menu">
+                <li>
+                    <a ui-sref="menu01">view1</a></li>
+                    <li><a ui-sref="menu02">view2</a></li>
+                </ul></div></div>
+                <div>
+                    <div class="topMenus"></div>
+                    <div class="banner">
+                        <div ui-view="banner"></div></div>
+                        <div class="contain">
+                            <div class="leftMenus">
+                                <div ui-view="leftMenu"></div>
+                            </div>
+                            <div class="content">
+                                <div ui-view="content"></div>
+                            </div>
+                        </div>
 
-        <div class="contain">
-            <div class="leftMenus">
-                
-            </div>
-            <div class="content">                
-                <div ng-view></div>
-            </div>
-        </div>
+                        <div class="footer"></div>
+                    </div>
+                </body>
 
-        <div class="footer">
+                <!-- lib -->
+                <script src="lib/jQuery/jQuery-3.3.1.js"></script>
+                <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+                <script src="lib/angular/angular.js"></script>
+                <script src="lib/angular/angular-ui-router.js"></script>
+               <!--  <script src="lib/angular/angular-resource.js"></script>
+                <script src="lib/angular/angular-cookies.js"></script>
+                <script src="lib/angular/angular-sanitize.js"></script>
+                <script src="lib/angular/angular-route.js"></script>
+                <script src="lib/angular/angular-touch.js"></script> -->
+                <!-- common JS -->
+                <script src="common/app.js"></script>
+                <script src="common/route.js"></script>
+                <script src="common/configUrl.js"></script>
+                <script src="common/controllers.js"></script>
+                <!-- <script src="common/services.js"></script> -->
+                <!-- <script src="common/filters.js"></script> -->
+                <!-- <script src="common/directives.js"></script> -->
+                <!-- topMenu -->
+                <script src="partials/topMenu/directive.js"></script>
+                <!-- leftMenu -->
+                <script src="partials/leftMenu/directive.js"></script>
+                <!-- content -->
+                <script src="partials/content/ctrl01/controller.js"></script>
+                <script src="partials/content/ctrl02/controller.js"></script>
+                <script src="partials/content/ctrl03/controller.js"></script>
 
-        </div>
-    </div>
-</body>
-    
-    <script src="lib/jQuery/jQuery-3.3.1.js"></script>
-    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-    <!-- angularJS -->
-    <script src="lib/angular/angular.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/config.js"></script>
-    <script src="js/configUrl.js"></script>
-    <script src="js/services.js"></script>
-    <script src="js/filters.js"></script>
-    <script src="js/directives.js"></script>
-    <script src="js/controllers.js"></script>
-
-</html>
+                </html>

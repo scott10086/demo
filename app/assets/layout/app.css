@@ -1,15 +1,7 @@
 /* app css stylesheet */
 
 .header{
-  background-color: grey;
-  height: 350px;
-  width: 100%;
-  border: 2px solid yellow;
-  margin:0;
-  padding: 5px;
-}
-.logo{
-  background-color: blue;
+  background-color: white;
   height: 60px;
 }
 .topMenus{
@@ -18,31 +10,26 @@
 }
 .banner{
   background-color: yellow;
-  height: 251px;
+  height: 250px;
 }
 .contain{
-  background-color: grey;
   height: 600px;
   width: 100%;
-  border: 2px solid red;
-  margin:0;
-  padding: 5px;
 }
 .leftMenus{
-  background-color: blue;
+  background-color: white;
   width: 30%;
-  height: 586px;
+  height: 600px;
   float: left;
 }
 .content{
   background-color: green;
   width: 70%;
   float: left;
-  height: 586px;
+  height: 600px;
 }
-.footer{
+.footer{ 
   background-color: grey;
-  border: 2px solid yellow;
   height: 300px;
   width: 100%;
 }
