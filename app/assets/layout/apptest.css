@@ -2,47 +2,34 @@
 
 .header{
   background-color: white;
-  height: 350px;
-  width: 100%;
-  border: 2px solid white;
-  margin:0;
-  padding: 5px;
-}
-.logo{
-  background-color: white;
   height: 60px;
 }
 .topMenus{
-  background-color: white;
+  background-color: green;
   height: 25px;
 }
 .banner{
-  background-color: white;
-  height: 251px;
+  background-color: yellow;
+  height: 250px;
 }
 .contain{
-  background-color: white;
   height: 600px;
   width: 100%;
-  border: 2px solid white;
-  margin:0;
-  padding: 5px;
 }
 .leftMenus{
   background-color: white;
   width: 30%;
-  height: 586px;
+  height: 600px;
   float: left;
 }
 .content{
-  background-color: white;
+  background-color: green;
   width: 70%;
   float: left;
-  height: 586px;
+  height: 600px;
 }
-.footer{
-  background-color: white;
-  border: 2px solid white;
+.footer{ 
+  background-color: grey;
   height: 300px;
   width: 100%;
 }
