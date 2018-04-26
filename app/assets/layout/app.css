@@ -5,11 +5,11 @@
   height: 60px;
 }
 .topMenus{
-  background-color: green;
+  background-color: white;
   height: 25px;
 }
 .banner{
-  background-color: yellow;
+  background-color: white;
   height: 250px;
 }
 .contain{
@@ -23,13 +23,13 @@
   float: left;
 }
 .content{
-  background-color: green;
+  background-color: white;
   width: 70%;
   float: left;
   height: 600px;
 }
 .footer{ 
-  background-color: grey;
+  background-color: white;
   height: 300px;
   width: 100%;
 }
