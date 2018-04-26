@@ -1,0 +1,5 @@
+<p>{{controller}}</p>
+
+<ul class="menu" ng-repeat="item in items">
+    <li><a ui-sref="{{item.url}}" ui-sref-opts="{reload:true}">{{item.label}}</a></li>
+</ul>

@@ -6,21 +6,16 @@
     <title>NgJS Bootstrap</title>
     <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="assets/layout/app.css" />
+    <link rel="stylesheet" href="assets/layout/apptest.css" />
 </head>
 
 <body>
     <div class="page">
         <div class="header">
-            <ul class="menu">
-                <li>
-                    <a ui-sref="menu01">view1</a></li>
-                <li><a ui-sref="menu02">view2</a></li>
-            </ul>
         </div>
     </div>
     <div>
-        <div class="topMenus"></div>
+        <div class="topMenus"><top-menu></top-menu></div>
         <div class="banner">
             <div ui-view="banner"></div>
         </div>
@@ -40,26 +35,25 @@
 <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 <script src="lib/angular/angular.js"></script>
 <script src="lib/angular/angular-ui-router.js"></script>
-<!-- <script src="lib/angular/angular-resource.js"></script> -->
-<!-- <script src="lib/angular/angular-cookies.js"></script> -->
-<!-- <script src="lib/angular/angular-sanitize.js"></script> -->
-<!-- <script src="lib/angular/angular-route.js"></script> -->
-<!-- <script src="lib/angular/angular-touch.js"></script> -->
 <!-- common JS -->
 <script src="common/app.js"></script>
 <script src="common/route.js"></script>
-<script src="common/configUrl.js"></script>
-<script src="common/controllers.js"></script>
-<!-- <script src="common/services.js"></script> -->
-<!-- <script src="common/filters.js"></script> -->
-<!-- <script src="common/directives.js"></script> -->
+<!-- header -->
+<script src="partials/header/01/directive.js"></script>
+<!-- footer -->
+<script src="partials/footer/01/directive.js"></script>
 <!-- topMenu -->
-<script src="partials/topMenu/directive.js"></script>
+<script src="partials/topMenu/01/directive.js"></script>
+<!-- banner -->
+<script src="partials/banner/01/controller.js"></script>
 <!-- leftMenu -->
-<script src="partials/leftMenu/directive.js"></script>
-<!-- content -->
-<script src="partials/content/ctrl01/controller.js"></script>
-<script src="partials/content/ctrl02/controller.js"></script>
-<script src="partials/content/ctrl03/controller.js"></script>
+<script src="partials/leftMenu/01/controller.js"></script>
+<!-- content01 -->
+<script src="partials/content/01/001/ctrl01/controller.js"></script>
+<script src="partials/content/01/001/ctrl02/controller.js"></script>
+<script src="partials/content/01/001/ctrl03/controller.js"></script>
+<!-- content02 -->
+<script src="partials/content/01/002/ctrl01/controller.js"></script>
+<script src="partials/content/01/002/ctrl02/controller.js"></script>
 
 </html>
