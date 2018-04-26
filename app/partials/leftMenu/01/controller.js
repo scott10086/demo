@@ -7,22 +7,27 @@ app.controller('LeftMenuCtrl', ['$scope','$location', function($scope,$location)
 	if(url.indexOf('menu01')!= -1){
     	$scope.items = [{
     		label:'010011111_111111',
-    		url:'menu01'
+    		url:'menu01',
+            class:'active'
     	},{
             label:'010011111_222222',
-            url:'menu01_item02'
+            url:'menu01_item02',
+            class:''
         },{
     		label:'010011111_333333',
-    		url:'menu01_item03'
+    		url:'menu01_item03',
+            class:''
     	}];
 	}
 	if(url.indexOf('menu02')!= -1){
     	$scope.items = [{
     		label:'010022222_111111',
-    		url:'menu02'
+    		url:'menu02',
+            class:''
     	},{
             label:'010022222_222222',
-            url:'menu02_item02'
+            url:'menu02_item02',
+            class:''
         }];
 	}
 }]);
