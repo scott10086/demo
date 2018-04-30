@@ -1,11 +1,11 @@
 'use strict';
 // var app = angular.module('myApp.directives', []);
 
-app.directive('header001Dire', function() {
+app.directive('footerDire', function() {
     return {
         restrict:"EACM",
         replace: true,
-        templateUrl: 'partials/header/header001/template.html',
+        templateUrl: 'partials/footer/01/template.html',
         scope:{},
         controller: function($scope, $element, $attrs, $transclude) { 
             // 控制器逻辑放在这里 

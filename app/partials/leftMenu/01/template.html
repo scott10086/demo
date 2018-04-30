@@ -1,7 +1,5 @@
-<div class="row">
-    <div class="col-lg-12 col-xs-12">
-        <ul class="nav nav-pills" ng-repeat="item in items">
-            <li class="{{item.class}}"><a ui-sref="{{item.url}}" ui-sref-opts="{reload:true}">{{item.label}}</a></li>
-        </ul>
-    </div>
-</div>
+<ul class="nav navLeftMenu">
+    <li class="{{item.class}}" ng-repeat="item in items">
+    	<a ui-sref="{{item.url}}" ui-sref-opts="{reload:true}">{{item.label}}</a>
+    </li>
+</ul>

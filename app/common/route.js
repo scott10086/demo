@@ -3,7 +3,7 @@
 app.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise('menu01');
 	var routerJson = [{
-						'_url': 'menu01',
+						'_url': 'menu01_item01',
 					    'content': {
 					        'temp': 'partials/content/01/001/ctrl01/template.html',
 					        'ctrl': 'Content01001Ctrl01'
@@ -21,7 +21,7 @@ app.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $url
 					        'ctrl': 'Content01001Ctrl03'
 					    }
 					}, {
-						'_url': 'menu02',
+						'_url': 'menu02_item01',
 					    'content': {
 					        'temp': 'partials/content/01/002/ctrl01/template.html',
 					        'ctrl': 'Content01002Ctrl01'
@@ -45,4 +45,12 @@ app.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $url
 			}
 		});
 	}
+	$stateProvider
+	.state('menu03_item01',{
+		url: '/menu03_item01',
+		views:{
+			'banner':{templateUrl: 'partials/banner/01/template.html', controller: 'BannerCtrl'},
+			'contain':{templateUrl: 'partials/content/01/003/ctrl01/template.html', controller: 'Content01003Ctrl01'}
+		}
+	});
 }]);
