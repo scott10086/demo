@@ -1,7 +1,7 @@
 'use strict';
 
 app.config(['$stateProvider', '$urlRouterProvider',function($stateProvider, $urlRouterProvider){
-	$urlRouterProvider.otherwise('menu01');
+	$urlRouterProvider.otherwise('menu01_item01');
 	var routerJson = [{
 						'_url': 'menu01_item01',
 					    'content': {

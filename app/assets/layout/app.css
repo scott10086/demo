@@ -1,65 +1,100 @@
 /* app css stylesheet */
 
-.container{
-  width: 1170px;
+/*common style*/
+body{
+
 }
-.header{
-  background-color: white;
-  height: 60px;
-  margin-top: 5px;
+.container {
+    width: 1170px;
 }
-.topMenus{
-  background-color: white;
-  height: 30px;
-  border: 1px solid yellow;
+
+.header {
+    background-color: white;
+    height: 60px;
+    margin-top: 5px;
 }
-.banner{
-  background-color: white;
-  height: 250px;
+
+.topMenus {
+    background-color: #34A344;
+    height: 30px;
 }
-.contain{
-  height: 600px;
-  width: 100%;
-  margin-top: 20px;
+
+.topMenus a{
+    display: block;
+    color: #FFF;
+    font-size: 15px;
+    width: 100%;
 }
-.leftMenus{
-  background-color: white;
-  width: 30%;
-  height: 600px;
-  float: left;
+
+.nav-justified li a span {
+    background: url(../images/topMenus/stroke_nav.gif) no-repeat 100% 50%;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
-.content{
-  background-color: #ececec;
-  width: 70%;
-  float: left;
+.nav-justified li a:hover span,.nav-justified li a:hover {
+    background: #0D6C29 100% 50%;
 }
-.footer{ 
-  background-color: white;
-  height: 300px;
-  width: 100%;
+.nav-justified li a:focus span,.nav-justified li a:focus {
+    background: #0D6C29 100% 50%;
 }
-.nav-justified > li > a{
+.banner {
+    background-color: white;
+    height: 250px;
+}
+
+.contain {
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.leftMenus {
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+.content {
+    background-color: #ececec;
+    width: 70%;
+    float: left;
+}
+
+.footer {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+
+.nav-justified>li>a {
     padding: 4px 5px;
 }
-.navLeftMenu{
-    width:220px;
+
+.navLeftMenu {
+    width: 220px;
     margin-left: 110px;
 }
-.navLeftMenu > li > a{
+
+.navLeftMenu>li>a {
     padding: 5px 10px;
 }
-.navLeftMenu > li > a:hover,
-.navLeftMenu > li > a:focus {
+
+.navLeftMenu>li>a:hover,
+.navLeftMenu>li>a:focus {
     color: #fff;
     background-color: #48ce7c;
 }
-.navLeftMenu > li.active > a,
-.navLeftMenu > li.active > a:hover,
-.navLeftMenu > li.active > a:focus {
+
+.navLeftMenu>li.active>a,
+.navLeftMenu>li.active>a:hover,
+.navLeftMenu>li.active>a:focus {
     color: #fff;
     background-color: #48ce7c;
 }
-.navLeftMenu > li {
+
+.navLeftMenu>li {
     display: block;
     background: #eee;
     border-bottom: solid #dedede 1px;
@@ -67,7 +102,8 @@
     width: 150px;
     line-height: 25px;
 }
-.navLeftMenu > li.active:after{
+
+.navLeftMenu>li.active:after {
     content: "";
     display: block;
     border-top: 8px solid transparent;
@@ -78,8 +114,7 @@
     top: 50%;
     margin-top: -7px;
 }
-.navLeftMenu > li > a {
-     border-radius: 0px; 
+
+.navLeftMenu>li>a {
+    border-radius: 0px;
 }
-
-
